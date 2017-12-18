@@ -5,5 +5,5 @@ function addElementToBeginningOfArray(chocolateBars,value){
 }
 var cities = ["New York"]
 function destructivelyAddElementToBeginningOfArray(cities,value){
-  return cities.unshift(value)
+  return 
 }
