@@ -26,3 +26,5 @@ function destructivelyRemoveElementFromBeginningOfArray(accessArray){
   accessArray.shift()
   return accessArray
 }
+var newArray = ["100","101","102"]
+function removeElementFromBeginningOfArray
