@@ -12,5 +12,5 @@ function destructivelyAddElementToBeginningOfArray(cities,value){
 var endArray=["1"]
 function addElementToEndOfArray(endArray,value){
   
-  return endArray[...endArray,value ]
+  return [...endArray,value ]
 }
