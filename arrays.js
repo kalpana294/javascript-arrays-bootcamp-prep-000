@@ -22,4 +22,7 @@ var accessArray = ["A","B","C"]
 function accessElementInArray(accessArray,value){
   return accessArray[value]
 }
-function destructivelyRemoveElementFromBeginningOfArray(choc)
+function destructivelyRemoveElementFromBeginningOfArray(accessArray){
+  accessArray.shift()
+  return accessArray
+}
