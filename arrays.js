@@ -36,3 +36,6 @@ function destructivelyRemoveElementFromEndOfArray(array1){
  array1.pop()
  return array1
 }
+
+var array2 =  ["E","F","G"]
+function 
