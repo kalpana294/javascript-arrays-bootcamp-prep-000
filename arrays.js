@@ -19,4 +19,6 @@ function destructiveAddElementToEndOFArray(endArray,value){
   return endArray
 }
 var accessArray = ["A","B","C"]
-function accessElementInArray()
+function accessElementInArray(accessArray,value){
+  return accessArray[value]
+}
