@@ -10,4 +10,7 @@ function destructivelyAddElementToBeginningOfArray(cities,value){
   return cities
 }
 var endArray=["1"]
-function addElementToEndOfArray()
+function addElementToEndOfArray(endArray,value){
+  endArray.push(value)
+  return endArray
+}
