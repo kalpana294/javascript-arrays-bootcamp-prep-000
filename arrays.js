@@ -38,4 +38,6 @@ function destructivelyRemoveElementFromEndOfArray(array1){
 }
 
 var array2 =  ["E","F","G"]
-function 
+function removeElementFromEndOfArray(array2){
+  array2.slice()
+}
