@@ -18,4 +18,5 @@ function destructiveAddElementToEndOFArray(endArray,value){
   endArray.push(value)
   return endArray
 }
+var accessArray = ["A","B","C"]
 function accessElementInArray()
