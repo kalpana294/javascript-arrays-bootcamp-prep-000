@@ -40,4 +40,5 @@ function destructivelyRemoveElementFromEndOfArray(array1){
 var array2 =  ["E","F","G"]
 function removeElementFromEndOfArray(array2){
  array2 = array2.slice(0,array2.length - 1)
+ return array2
 }
