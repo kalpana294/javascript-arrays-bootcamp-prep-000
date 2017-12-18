@@ -32,7 +32,7 @@ function removeElementFromBeginningOfArray(newArray){
   return newArray
 }
 var array1 = ["E","F","G"]
-function destructivelyRemoveElementFromEndOfArray(newArray){
- newArray =  newArray.pop()
- return newArray
+function destructivelyRemoveElementFromEndOfArray(array1){
+ array1.pop()
+ return array1
 }
