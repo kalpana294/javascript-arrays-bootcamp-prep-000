@@ -9,3 +9,4 @@ function destructivelyAddElementToBeginningOfArray(cities,value){
   cities.unshift(value);
   return cities
 }
+function addElementToEndOfArray()
