@@ -29,4 +29,5 @@ function destructivelyRemoveElementFromBeginningOfArray(accessArray){
 var newArray = ["100","101","102"]
 function removeElementFromBeginningOfArray(newArray){
   newArray.slice(1)
+  return newArray
 }
