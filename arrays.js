@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(chocolateBars,value){
   return [value, ...chocolateBars]
 }
 
-var cities = ["New York"]
+var cities = ['New York']
 function destructivelyAddElementToBeginningOfArray(cities,value){
   cities.unshift[value];
   return cities
